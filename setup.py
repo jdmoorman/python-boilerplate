@@ -13,11 +13,11 @@ test_requirements = [
 ]
 
 docs_requirements = [
-    
+
 ]
 
 setup_requirements = [
-    
+
 ]
 
 dev_requirements = [
