@@ -9,11 +9,7 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 test_requirements = [
-<<<<<<< HEAD
-
-=======
     "pytest", "pytest-cov",
->>>>>>> Add tests with pytest and tox. Add GitHub Actions.
 ]
 
 docs_requirements = [
