@@ -9,25 +9,25 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 test_requirements = [
-    
+
 ]
 
 docs_requirements = [
-    
+
 ]
 
 setup_requirements = [
-    
+
 ]
 
 dev_requirements = [
     *test_requirements,
     *docs_requirements,
     *setup_requirements,
-    
+
     "bump2version>=1.0.0",
     "ipython>=7.5.0",
-    
+
     "twine>=1.13.0",
     "wheel>=0.33.1",
 ]
@@ -45,7 +45,6 @@ extra_requirements = {
         *docs_requirements,
         *setup_requirements,
         *dev_requirements,
-        *interactive_requirements,
     ],
 }
 
