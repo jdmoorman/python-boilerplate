@@ -24,7 +24,7 @@ dev_requirements = [
     *test_requirements,
     *docs_requirements,
     *setup_requirements,
-    
+
     "bump2version>=1.0.0",
     "ipython>=7.5.0",
     "tox>=3.5.2",
